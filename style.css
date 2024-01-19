@@ -1,0 +1,267 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+nav {
+    width: 100%;
+    background: #664229;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+
+.hidden a {
+    padding: 20px;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color: #FAEED1;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#section1 {
+    height: 1000px;
+    background: #DED0B6;
+    display: inline-block;
+    width: 100%;
+}
+
+.name {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 300px;
+    font-size: 100px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#section1 sub {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 1015px;
+    background-color: #664229;
+    color: #FAEED1;
+    border-color: #FAEED1;
+    padding: 5px;
+}
+
+#section1 .social-icons {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+#section1 .fa-facebook,
+#section1 .fa-github,
+#section1 .fa-instagram {
+    font-size: 40px;
+    margin: 5px; /* Adjust the margin as needed */
+    color: #664229;
+    text-decoration: none;
+}
+
+#section1 .fa-facebook {
+    margin-right: 10px;
+}
+
+#section1 .fa-github {
+    margin-right: 10px;
+}
+
+#section1 .fa-facebook:hover,
+#section1 .fa-github:hover,
+#section1 .fa-instagram:hover {
+    color: #81724f;
+}
+
+/* Download CV */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+}
+
+button {
+    padding: 30px 100px;
+    font-size: 16px;
+    color: #664229;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 5px solid #664229;
+    background-color: #DED0B6;
+    transition: ease-in-out 0.3s;
+}
+
+button:hover {
+    background-color: #664229;
+    color: #DED0B6;
+}
+
+#section2 {
+    height: 1318px;
+    background: #FAEED1;
+    display: inline-block;
+    width: 100%;
+    text-align: center; /* Center the content */
+    border-top: 2px solid #664229;
+}
+
+#section2 .past-school,
+#section2 .present-school {
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.main-image {
+    max-width: 100%;
+    border-radius: 50%;
+    border: 5px solid #664229;
+    animation: borderAnimation 2s infinite alternate;
+}
+
+@keyframes borderAnimation {
+    0% {
+        border-color: #664229;
+    }
+    100% {
+        border-color: #FAEED1; /* Change this color as desired */
+    }
+}
+
+#section2 .school img {
+    width: 50%;
+    margin-right: 5%;
+    float: left;
+}
+
+#section2 .school .past-school img {
+    margin-left: 50px;
+}
+
+#section2 .school .present-school img {
+    margin-left: 25px;
+}
+
+#section2 .school p {
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.sub {
+    border-color: #664229;
+    margin: 10px;
+}
+
+.past-school {
+    width: 1000px;
+}
+
+#section2 h2 {
+    margin-top: 50px;
+    font-size: 40px;
+    color: #664229;
+    text-transform: capitalize;
+}
+
+#section2 h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: #664229;
+    text-transform: capitalize;
+}
+
+#section2 .past-school {
+    float: left;
+}
+
+#section2 .present-school {
+    float: right;
+}
+
+.school {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.school img {
+    width: 25%;
+    margin-right: 5%;
+    float: left;
+}
+
+#section3 {
+    height: 900px;
+    background: #DED0B6;
+    display: inline-block;
+    width: 100%;
+    border-top: 3px solid #664229;
+}
+
+#section3 h1 {
+    margin: 100px;
+    font-size: 60px;
+    text-align: center;
+    padding: 0;
+    color: #664229;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+#section3 img {
+    width: 550px;
+    height: 470px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border: 2px solid #664229;
+}
+
+#container {
+    height: 900px;
+    background: #DED0B6;
+    display: inline-block;
+    width: 100%;
+}
+
+#container img {
+    width: 700px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 155px;
+    border: 3px solid #664229;
+}
+
