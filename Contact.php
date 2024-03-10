@@ -116,12 +116,14 @@
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" required><br>
         
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" required></textarea><br>
+        <label for="feedback">Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" required></textarea><br>
         
         <input type="submit" value="Submit" name="submit">
     </form>
     </div>
+    
+    <!-- Social Media Icons -->
     
 </body>
 </html>

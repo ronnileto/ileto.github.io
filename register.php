@@ -205,7 +205,7 @@
 					<input type="submit" class="btn btn-primary btn-block" value="Register" name="submit">
 
 					<div class="container1">
-						<p class="mt-3">Already registered? <a href="index.php">Login here</a></p>
+						<p class="mt-3">Already registered? <a href="login.php">Login here</a></p>
 					</div>
 				</div>
 			</div>
