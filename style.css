@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background: #ffe8d6;
+    color: #fff;
+}
+
+#header {
+    height: 700px;
+    background-image: none; /* or remove this line entirely */
+}
+
+
+.container {
+    padding: 10px 10%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Change from space-between to flex-end */
+    flex-wrap: wrap;
+    background-color: #7C3030;
+}
+
+
+h1 {
+    font-size: 70px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #7C3030;
+    text-decoration: none;
+    font-size: 35px;
+    position: relative;
+    text-align: center; /* Add this line */
+    display: block; /* Add this line */
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Add this line */
+}
+
+nav ul a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #000000;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul a:hover::after{
+    width: 100%;
+}
+.header-text{
+    margin-top: 20%;
+    font-size: 40px;
+    color: #7C3030;;
+}
+.header-text h1{
+    font-size: 60px;
+    margin: 20px;
+}
+.header-text h1 span{
+    color: black;
+}
+
+#about{
+    padding: 80px 0;
+    
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1{
+    width: 100%;
+    border-radius: 15px;
+}
+.about-col-2{
+    flex-basis: 60%;
+    text-align: justify;
+}
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #7C3030;;
+}
+.tab-title{
+    display: flex;
+    margin: 20px 0 15px;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 30px;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.Hobbies img {
+    width: 300px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.Hobbies h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.tab-Hobbies {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.achievement {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.achievement img {
+    width: 300px; 
+    height: 400px; 
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.achievement h2 {
+    margin-top: 10px;
+}
+
+.tab-achievement {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+
